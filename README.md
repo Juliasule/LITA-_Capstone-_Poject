@@ -2,7 +2,7 @@
 This Capstone contains two projects namely: 
 - Project 1:Retail Store Sales Performance Analysis
 - Project 2: Customer Segmentation for a Subscription Service
-We will be looking at a detailed analysis of these two projects and highlight some projects performed as part of my Learning experience with INCUBATOR HUB.
+We will analyze these two projects in detail and highlight some projects performed as part of my Learning experience with INCUBATOR HUB.
 
 ## Table of Contents
 
@@ -15,6 +15,8 @@ We will be looking at a detailed analysis of these two projects and highlight so
 [Tools Used](#tools-used)
 
 [Data Cleansing and Preparation](#data-cleaning-and-preparation)
+
+[Key Metrics](key-metrics)
 
 [Exploratory Data Analysis](#exploratory-data-analysis)
 
@@ -43,7 +45,7 @@ The dataset used in this analysis includes:
 - **Sales**: sale made by each product
 
 ### Data Source
-The dataset was obtained from (theincubatorhub.org]
+The dataset was obtained from (theincubatorhub.org] LITA Bootcamp
 
 
 ### Tools Used [Download Here](https://www.microsoft.com)
@@ -55,9 +57,13 @@ The dataset was obtained from (theincubatorhub.org]
 - Power BI: for visualization
 - GitHub for portfolio building.
 
-### Data Preprocessing
-
- Data preprocessing involves cleaning, handling missing values, and formatting date fields to ensure consistent and accurate analysis. The cleaned data is stored as `sales_data.csv`.
+ ### Data Cleansing and Preparation
+In the initial phase of data cleaning and preparations, we perform the following actions:
+- Data loading and inspection.
+- Handling missing variables.
+- Removal of Duplicates.
+- Data cleaning and formatting.
+The cleaned Data set was saved as SALESDATA.csv
 
 ## Key Metrics
 
@@ -67,8 +73,13 @@ The analysis focuses on several KPIs critical for understanding retail sales per
 - **Top Performing Products**: Products that generate the highest sales and profit.
 - **Customer Purchase Behavior**: Average spend per customer and purchase frequency.
 - **Sales by Product Category**: Distribution of sales across different product categories.
+- **Average Sales per product**: sales contributed averagely per product.
+- **Total Revenue by Region**: Revenue contributed by each Region
+- **Percentage of Total sales by Region**: Percentage of the total sales contributed by each Region.
+- **Top 5 Customers**: Top 5 Customers by their purchasing power. 
 
-## Project Structure
+### Exploratory Data Analysis
+Analysis for the Key  Metrics was performed on the Data Set using the Pivot Table; and some Excel Formula. The data set was imported to SQL for further analysis using SQL query and later the Result was imported to Power BI for visualization
 
 Analysis and Insights
 The analysis reveals:
