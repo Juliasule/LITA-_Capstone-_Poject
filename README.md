@@ -81,7 +81,7 @@ The analysis focuses on several KPIs critical for understanding retail sales per
 ## Exploratory Data Analysis
 Analysis for the Key  Metrics was performed on the Data Set using the Pivot Table; and some Excel Formula. The data set was imported to SQL for further analysis using SQL query and later the Result was imported to Power BI for visualization.
 
-##Data Analysis
+## Data Analysis and Insights
 The Excel formula used to calculate the Average sales per product and Total Revenue by Region:
 ...Excel				
 AVERAGE SALES PER PRODUCT:					
@@ -91,20 +91,24 @@ AVERAGE SALES PER PRODUCT:
 		SHIRT	326.5635508		=AVERAGEIF(Table2[Product],M6,Table2[Total Sales])
 		SHOES	308.6965274		=AVERAGEIF(Table2[Product],M7,Table2[Total Sales])
 		SOCKS	121.8227763		=AVERAGEIF(Table2[Product],M8,Table2[Total Sales])
-![image](https://github.com/user-attachments/assets/cb9ae424-4327-4ea7-bd66-8bdc82158b87)
- TOTAL REVENUE BY REGION					
+					
+![image](https://github.com/user-attachments/assets/f872fc8f-e981-4cf4-a3d2-633522c97eea)
+
+TOTAL REVENUE BY REGION					
 		EAST	 485,925 		=SUMIFS(H2:H50001,D2:D50001,"East")
 		NORTH	 386,900 		=SUMIFS(H3:H50002,D3:D50002,"North")
 		SOUTH	 927,320 		=SUMIFS(H4:H50003,D4:D50003,"South")
 		WEST	 300,345 		=SUMIFS(H5:H50004,D5:D50004,"West")
-![image](https://github.com/user-attachments/assets/00bca783-e12a-4d2e-9271-1a82da055de5)
+![image](https://github.com/user-attachments/assets/ab87fbbb-5618-474a-9311-9ef479683881)
+...Excel
 
+![Picot Tables SD](https://github.com/user-attachments/assets/74faba8b-93ba-4697-a612-de156480469d)
 
 
 ##Insights
 The analysis reveals:
 
-Seasonal Trends: Higher sales during holiday seasons.
+Seasonal Trends: Higher sales during Valentine season.
 Best-Selling Products: Products with the highest transaction volume.
 Customer Insights: Customer segmentation based on purchase frequency and value.
 
