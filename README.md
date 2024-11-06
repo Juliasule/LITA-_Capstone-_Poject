@@ -2,7 +2,7 @@
 This Capstone contains two projects namely: 
 - Project 1:Retail Store Sales Performance Analysis
 - Project 2: Customer Segmentation for a Subscription Service
-We will analyze these two projects in detail and highlight some projects performed as part of my Learning experience with INCUBATOR HUB.
+We will analyze these two projects in detail and highlight some projects I performed as part of my learning experience with INCUBATOR HUB.
 
 ## Table of Contents
 
@@ -72,14 +72,14 @@ The analysis focuses on several KPIs critical for understanding retail sales per
 - **Monthly Sales Trend**: Monthly revenue and growth rate.
 - **Top Performing Products**: Products that generate the highest sales and profit.
 - **Customer Purchase Behavior**: Average spend per customer and purchase frequency.
-- **Sales by Product Category**: Distribution of sales across different product categories.
+- **Sales by Product Category**: Sales distribution across different product categories.
 - **Average Sales per product**: sales contributed averagely per product.
 - **Total Revenue by Region**: Revenue contributed by each Region
 - **Percentage of Total sales by Region**: Percentage of the total sales contributed by each Region.
 - **Top 5 Customers**: Top 5 Customers by their purchasing power. 
 
 ## Exploratory Data Analysis
-The data set for the key metrics was analyzed using a pivot table and some Excel formulas. The data set was then imported to SQL for further analysis using an SQL query, and later, the Result was imported to Power BI for visualization.
+The data set was analyzed for the key metrics  using a pivot table and some Excel formulas. The data set was then imported to SQL for further analysis using an SQL query, and later, the Result was imported to Power BI for visualization.
 
 ## Data Analysis and Insights
 The Excel formula used to calculate the Average sales per product and Total Revenue by Region:
@@ -190,13 +190,13 @@ and OrderDate< GETDATE())
 ```
 ### Insights
 The analysis reveals:
-- The Total Sales by all Regions in 2023 and 2024 is **2,101,090**
+- The Total Sales by all Regions in 2023 and 2024 to be **2,101,090**
 - The Region with the **highest Total sales is the South with 927,820**
   
-- Seasonal Trends: Higher sales are noticed in **February** in both 2023 and 2024 with Total Sales of **247,500 and **298,800** respectively which might be due to Valentine's celebrations, as people are buying gifts for their loved ones.
-- Best-Selling Products: The Product with the highest transaction volume is **Hats**, with a Total volume of **15,929**. However, regarding Total sales, the product with the highest Total Sales is **Shoes**, with a **total sales of 613,380** against **Hats's 316,195**. Although the product **Hats** sold more, it ranked third in Total Sales contributed.
+- Seasonal Trends: Higher sales are noticed in  the month of **February** in both 2023 and 2024 with Total Sales of **247,500 and **298,800** respectively these could be a result of  Valentine's celebrations, as people are buying gifts for their loved ones.
+- Best-Selling Products: The Product with the highest transaction volume is the product **Hats**, with a Total transaction volume of **15,929**. However, this product did not yield the highest Total sales rather the product with the highest is **Shoes**, with a **total sales of 613,380** against **Hats's 316,195**. Although the product **Hats** sold more, it ranked third in Total Sales contributed. This means that this particular product **(Hats)** is the product that brings more traffic and patronage to the shops.
   
-- Customer Insights: Customer segmentation based on purchase frequency and value is noticed throughout the Regions. The **Westerners** are buying more Hats with Total sales of **174300** probably due to their weather. Peak period in the months of **April and August** both in 2023 and 2024 is noticed in this region. however the **Southerners** are buying more of **Shoes** with Total sales of **546,300**. While the **Northerners** who are buying more shirts seem not to be seasonal shoppers with only high sales seen in the month of **January with Total Sales of 198,400**. The **Easterners** who favor **Shirts** with Total sales of **237,600** seem not to have a season of shopping as fluctuations can be seen throughout the year.
+- Customer Insights: Customer segmentation based on purchase frequency and value is noticed throughout the Regions. The **West** is buying more **Hats** than other products, with Total sales of **174300** probably due to the weather. Peak period in the months of **April and August** both in 2023 and 2024 is noticed in this region. however customers in the **South** are buying more of **Shoes** with a Total sales of **546,300**. While the customers in the **North** who are buying more shirts seem not to be seasonal shoppers with only high sales seen in the month of **January with Total Sales of 198,400**. The **East** like their northern counterparts are buying **Shirts** as well with Total sales of **237,600** and they too seem not to have a trend for  shopping as fluctuations can be seen throughout the year.
 
 
 ## Data Visualization
@@ -385,14 +385,14 @@ FROM
 ### Insights
 The analysis reveals: Insights on customer behavior, segment profiles, and suggestions for improving retention and reducing churn.
 Some notable ones are:
-- **Customer segmentation**: This is done based on Regionusing RFM ( Recency, Frequency, and Monetary). The number of customers per Region is **East (8488)**, **South (8446)**, **North (8446)**, and **West (8420)** from the highest to the lowest.
-- The Top 3 regions by subscription Cancellation are **North (5067) Inactive and (3366) Active** subscriptions, **South (5064) Inactive and (3382) Active** subscriptions, and **West (5044) Inactive and (3376) Active** subscriptions, while **East with (8488) Active** subscriptions had no cancellations.
-- All Regions contributed  equally, with a Total Revenue of **17M** each.
+- **Customer segmentation**: This is done based on Region using RFM ( Recency, Frequency, and Monetary). The number of customers per Region is **East (8488)**, **South (8446)**, **North (8446)**, and **West (8420)** from the highest to the lowest.
+- The Top 3 regions by subscription Cancellation are **North (5067) Inactive and (3366) Active** subscriptions, **South (5064) Inactive and (3382) Active** subscriptions, and **West (5044) Inactive and (3376) Active** subscriptions, while **East with (8488) Active** subscriptions had no cancellations at all.
+- All Regions contributed  equal Total Revenue despite cancellations in some regions, this means that the service delivery of the subscription company is to be commended, Total Revenue contributed by each Region is **17M** per region.
 - The most popular **subscription Type** is **Basic** with Total Revenue of **34M** followed by **Premium and Standard with a Total Revenue of **16.9M** each.
-- **Subscription Pattern and Trend**: The **Average subscription Duration by customer is **365 days** which is equivalent to 1 year.
+- **Subscription Pattern and Trend**: The **Average subscription Duration by customer is **365 days** which is equivalent to 1 year. this shows that most of the customers prefer a yearly subscription
 - Total number of **Active and Inactive subscriptions is **18612 and 15175** respectively.
 - **20** Customers had their subscription exceeding 1 year'
-- **3385** customers canceled in 6 months of subscription, this might be due to poor service delivery or after-sales customer service.
+- **3385** customers canceled in 6 months of subscription, this might be due to poor service delivery, after-sales customer service, or Economic reasons.
 
 ## Data visualization
 ### Power BI Dashboard
@@ -402,12 +402,13 @@ Some notable ones are:
 
 ## Highlights of some class Projects
 ### Map Data
-Map of Nigeria showing the Population of Nigeria in 2019 which is **196M**
+This project is about the Map of Nigeria showing the Population density of Nigeria in 2019 which is **196M**. In this project we were taught how to use the map to get our live locations
 
 
 ![MAP SNIP](https://github.com/user-attachments/assets/c3787dcf-f126-4ff6-b921-14681025ea42)
 
-###HR DATA
+### HR DATA
+This project aims to calculate the attrition of
 
 ![HR DATA DASHBOARD](https://github.com/user-attachments/assets/df2b8c03-0b3d-4072-b949-b1588d18e0f7)
 ![HR DATA DASHBOARD  1png](https://github.com/user-attachments/assets/a5d45e0c-82e5-44d4-be2e-94f65a2bf942)
