@@ -387,12 +387,12 @@ The analysis reveals: Insights on customer behavior, segment profiles, and sugge
 Some notable ones are:
 - **Customer segmentation**: This is done based on Region using RFM ( Recency, Frequency, and Monetary). The number of customers per Region is **East (8488)**, **South (8446)**, **North (8446)**, and **West (8420)** from the highest to the lowest.
 - The Top 3 regions by subscription Cancellation are **North (5067) Inactive and (3366) Active** subscriptions, **South (5064) Inactive and (3382) Active** subscriptions, and **West (5044) Inactive and (3376) Active** subscriptions, while **East with (8488) Active** subscriptions had no cancellations at all.
-- All Regions contributed  equal Total Revenue despite cancellations in some regions, this means that the service delivery of the subscription company is to be commended, Total Revenue contributed by each Region is **17M** per region.
+All Regions contributed equal Total Revenue despite cancellations in some regions. This means that the subscription company's service delivery is to be commended. The Total Revenue contributed by each Region is **17M** per region.
 - The most popular **subscription Type** is **Basic** with Total Revenue of **34M** followed by **Premium and Standard with a Total Revenue of **16.9M** each.
 - **Subscription Pattern and Trend**: The **Average subscription Duration by customer is **365 days** which is equivalent to 1 year. this shows that most of the customers prefer a yearly subscription
 - Total number of **Active and Inactive subscriptions is **18612 and 15175** respectively.
 - **20** Customers had their subscription exceeding 1 year'
-- **3385** customers canceled in 6 months of subscription, this might be due to poor service delivery, after-sales customer service, or Economic reasons.
+**3385** customers canceled their subscriptions within 6 months. This might be due to poor service delivery, after-sales customer service, or economic reasons.
 
 ## Data visualization
 ### Power BI Dashboard
@@ -402,13 +402,33 @@ Some notable ones are:
 
 ## Highlights of some class Projects
 ### Map Data
-This project is about the Map of Nigeria showing the Population density of Nigeria in 2019 which is **196M**. In this project we were taught how to use the map to get our live locations
+This project is about the Map of Nigeria showing the Population density of Nigeria in 2019 which is **196M**. In this project, we were taught how to use the map to get our live locations
 
 
 ![MAP SNIP](https://github.com/user-attachments/assets/c3787dcf-f126-4ff6-b921-14681025ea42)
 
-### HR DATA
-This project aims to calculate the attrition of
+## HR DATA
+This project aims to calculate the company's attrition. In the initial stage, the data set was imported to Power BI where Data cleaning was done in transform Data  null values were removed, headers were promoted and empty Rows and Columns were removed as well. A new measures were created using the calculated column in the view table mode
+
+### Insights
+The analysis reveals: 
+- **The Total number of Employees** to be **1470**. 
+- **Total number Attrition Count** to be **273**. 
+- **Current number of Employees** to be **1233**. 
+- **Average Age** to be **37**. 
+- The **Attrition Rate is 16%** which is unusually high for a company as the normal attrition rate for a company should be around 10%. This high attrition rate can be a problem for the company if measures are not put in place to handle it, these measures can be  giving Incentives, Bonuses, salary Reviews, etc. These problems could range from :
+- the cost of recruiting, onboarding, and training of new employees
+- shortages of essential skills and experience.
+- negative effects on customer service and loyalty.
+  The factors that might have led to this high attrition rate are:-
+  - Career opportunities
+  - Work Environment
+  - Job satisfaction
+  - Compensation
+  - work-life balance (most women tend to be affected by this factor)
+**Sum of Attrition by Department** showed that the department with the highest Attrition rata is the **RND** this could be that they are not getting enough compensation for their hard work.
+**The attrition by gender showed that more males were leaving the company when compared to female employees. This might be due to their ambitions and family financial responsibility
+
 
 ![HR DATA DASHBOARD](https://github.com/user-attachments/assets/df2b8c03-0b3d-4072-b949-b1588d18e0f7)
 ![HR DATA DASHBOARD  1png](https://github.com/user-attachments/assets/a5d45e0c-82e5-44d4-be2e-94f65a2bf942)
